@@ -1,7 +1,13 @@
 {
   "name": "time_to_answer",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jQuery": "^1.7.4",
+    "startbootstrap-sb-admin-2": "^4.1.1"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/maikondouglas/Curso-Rails-5.x.git",
