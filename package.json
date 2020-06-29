@@ -2,11 +2,19 @@
   "name": "time_to_answer",
   "private": true,
   "dependencies": {
+    "@dpordomingo/startbootstrap-sb-admin-2": "^4.0.8",
     "@fortawesome/fontawesome-free": "^5.13.1",
+    "add": "^2.0.6",
     "bootstrap": "^4.5.0",
+    "fastclick": "^1.0.6",
     "font-awesome": "^4.7.0",
+    "fonteditor-core": "^2.1.1",
     "jQuery": "^1.7.4",
-    "startbootstrap-sb-admin-2": "^4.1.1"
+    "jquery": "^3.5.1",
+    "nprogress": "^0.2.0",
+    "popper.js": "^1.16.1",
+    "startbootstrap-sb-admin-2": "^4.1.1",
+    "yarn": "^1.22.4"
   },
   "version": "1.0.0",
   "main": "index.js",
