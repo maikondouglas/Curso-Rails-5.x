@@ -6,3 +6,4 @@
 //= require bootstrap-3.3.7/js/bootstrap
 //= require metisMenu-1.1.3/metisMenu
 //= require sb-admin-2
+//= require bootstrap-growl-ifightcrime/jquery.bootstrap-growl

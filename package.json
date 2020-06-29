@@ -6,6 +6,7 @@
     "@fortawesome/fontawesome-free": "^5.13.1",
     "add": "^2.0.6",
     "bootstrap": "^4.5.0",
+    "bootstrap-growl-ifightcrime": "^1.1.0",
     "fastclick": "^1.0.6",
     "font-awesome": "^4.7.0",
     "fonteditor-core": "^2.1.1",
