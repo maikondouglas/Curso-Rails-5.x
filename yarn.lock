@@ -154,6 +154,11 @@ jquery@3.5.1, jquery@>=1.7, jquery@^3.5.1:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
 
+metismenujs@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/metismenujs/-/metismenujs-1.2.0.tgz#49241e8efabc0e94af1d7f608dd2f6498bae9255"
+  integrity sha512-dcP82O4FcT+d5f18Cq4kLmY0YmYOWTt+oDywXsA2MLxDtU9oDLBXZxBNHSfXy47g9Ygb4Lf3nrMn5c7LKe8Cbg==
+
 moment@^2.10.2:
   version "2.27.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"

@@ -34,8 +34,16 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
                                                    prod-4.jpg
                                                    prod-5.jpg
                                                    user.png
-                                                   visa.png )
+                                                   visa.png 
+                                                )
 # /vendor/assets
 Rails.application.config.assets.precompile += %w( jquery-2.2.4/dist/jquery.js 
+                                                  jquery-3.1.0/jquery.js
                                                   bootstrap-4.3.1/dist/js/bootstrap.js 
-                                                  bootstrap-4.3.1/dist/css/bootstrap.css)
+                                                  bootstrap-4.3.1/dist/css/bootstrap.css
+                                                  bootstrap-3.3.7/css/bootstrap.css
+                                                  bootstrap-3.3.7/js/bootstrap.js
+                                                  metisMenu-1.1.3/metisMenu.css 
+                                                  metisMenu-1.1.3/metisMenu.js
+                                                  
+                                                )

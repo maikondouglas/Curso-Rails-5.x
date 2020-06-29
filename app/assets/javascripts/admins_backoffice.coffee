@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-//= require bootstrap/dist/js/bootstrap
-//= require jquery/dist/jquery
-//= require jquery.easing/jquery.easing
+//= require jquery-3.1.0/jquery 
+//= require bootstrap-3.3.7/js/bootstrap
+//= require metisMenu-1.1.3/metisMenu
 //= require sb-admin-2
