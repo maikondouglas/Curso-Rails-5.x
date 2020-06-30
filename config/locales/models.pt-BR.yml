@@ -12,8 +12,8 @@
         one: Assunto
         other: Assuntos
       question:
-        one: Questão
-        other: Questões
+        one: Pergunta
+        other: Perguntas
     attributes:
       admin:
         id: Código
