@@ -10,7 +10,7 @@
       <thead>
           <tr>
               <th class="text-center" >ID</th>
-              <th class="text-center" >Descrição</th>
+              <th class="text-center" ><%= @subjects.model.human_attribute_name(:description) %></th>
               <th class="text-center" >
                   <%= link_to new_admins_backoffice_subject_path, class: "btn btn-success btn-circle" do %>
                     <i class="fa fa-plus"></i>

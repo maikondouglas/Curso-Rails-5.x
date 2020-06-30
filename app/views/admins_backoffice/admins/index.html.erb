@@ -10,7 +10,7 @@
       <thead>
           <tr>
               <th class="text-center" >ID</th>
-              <th class="text-center" >E-mail</th>
+              <th class="text-center" ><%= @admins.model.human_attribute_name(:email) %></th>
               <th class="text-center" >
                   <%= link_to new_admins_backoffice_admin_path, class: "btn btn-success btn-circle" do %>
                     <i class="fa fa-plus"></i>

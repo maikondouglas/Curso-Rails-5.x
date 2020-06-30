@@ -9,8 +9,8 @@
         one: Usuário
         other: Usuários
       subject:
-        one: Assunto/Área
-        other: Assuntos/Áreas
+        one: Assunto
+        other: Assuntos
       question:
         one: Questão
         other: Questões
@@ -37,7 +37,7 @@
       question:
         id: Código
         description: Descrição
-        subject_id: Assunto/Área
-        subject: Assunto/Área
+        subject_id: Assunto
+        subject: Assunto
         created_at: Criado em 
         updated_at: Atualizado em
