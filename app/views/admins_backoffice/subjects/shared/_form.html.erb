@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-12">
-        <h1 class="page-header"><%= action_message %></h1>
+        <h1 class="page-header"><%= t('messages.action_message') %></h1>
     </div>
     <!-- /.col-lg-12 -->
 </div>
@@ -19,7 +19,7 @@
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <%= "#{action_message} Assunto/Área "%> 
+                <%= t('messages.action_message_model', model: @subject.model_name.human(count: 1)) %> 
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -28,10 +28,10 @@
                             
                             <div class="form-group">
                               <%= form.label :description %>
-                              <%= form.text_field :description, class: "form-control", placeholder: "Digite um Assunto/Área válido" %>
+                              <%= form.text_field :description, class: "form-control", placeholder: t('placeholders.placeholder_subject') %>
                             </div>
 
-                            <button type="submit" class="btn btn-success">Salvar</button>
+                            <button type="submit" class="btn btn-success"><%= t('buttons.action_button') %></button>
                         <% end %>
                     </div>
                 </div>
