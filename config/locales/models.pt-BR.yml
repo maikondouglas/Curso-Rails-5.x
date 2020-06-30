@@ -11,6 +11,9 @@
       subject:
         one: Assunto/Área
         other: Assuntos/Áreas
+      question:
+        one: Questão
+        other: Questões
     attributes:
       admin:
         id: Código
@@ -29,5 +32,12 @@
       subject:
         id: Código
         description: Descrição
+        created_at: Criado em 
+        updated_at: Atualizado em
+      question:
+        id: Código
+        description: Descrição
+        subject_id: Assunto/Área
+        subject: Assunto/Área
         created_at: Criado em 
         updated_at: Atualizado em
