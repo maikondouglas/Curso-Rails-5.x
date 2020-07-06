@@ -12,7 +12,12 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # /app/assets
- Rails.application.config.assets.precompile += %w( admins_backoffice.js admins_backoffice.css users_backoffice.css users_backoffice.js)
+ Rails.application.config.assets.precompile += %w( admins_backoffice.js 
+                                                   admins_backoffice.css 
+                                                   users_backoffice.css 
+                                                   users_backoffice.js
+                                                   admin_devise.css 
+                                                   admin_devise.js)
 # /lib/assets
  Rails.application.config.assets.precompile += %w( sb-admin-2.js sb-admin-2.css 
                                                    jquery.mCustomScrollbar.concat.css 
