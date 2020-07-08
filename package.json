@@ -12,6 +12,7 @@
     "fonteditor-core": "^2.1.1",
     "jQuery": "^1.7.4",
     "jquery": "^3.5.1",
+    "jquery-slim": "^3.0.0",
     "metismenujs": "^1.2.0",
     "nprogress": "^0.2.0",
     "popper.js": "^1.16.1",

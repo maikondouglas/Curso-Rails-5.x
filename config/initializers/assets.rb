@@ -19,13 +19,18 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
                                                    admin_devise.css 
                                                    admin_devise.js
                                                    user_devise.css
-                                                   user_devise.js)
+                                                   user_devise.js
+                                                   site.css
+                                                   site.js
+                                                   )
 # /lib/assets
  Rails.application.config.assets.precompile += %w( sb-admin-2.js sb-admin-2.css 
                                                    jquery.mCustomScrollbar.concat.css 
                                                    jquery.mCustomScrollbar.concat.js 
+                                                   custom-login.css
                                                    custom.css 
                                                    custom.js
+                                                   avbar-top-fixed.css
                                                    american-express.png
                                                    cropper.jpg
                                                    favicon.ico
@@ -52,5 +57,5 @@ Rails.application.config.assets.precompile += %w( jquery-2.2.4/dist/jquery.js
                                                   bootstrap-3.3.7/js/bootstrap.js
                                                   metisMenu-1.1.3/metisMenu.css 
                                                   metisMenu-1.1.3/metisMenu.js
-                                                  
+                                                                                                    
                                                 )

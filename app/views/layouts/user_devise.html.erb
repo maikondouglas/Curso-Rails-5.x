@@ -25,11 +25,16 @@
     <%= javascript_include_tag 'user_devise' %>
 
     <% if flash %>
-      <div class="container">
-        <% flash.each do |key, value| %>
-          <%= content_tag :div, value, class: "alert alert-info", role: "alert" %>
-        <% end %> 
-      </div>
+      <% flash.each do |key, value| %>
+        <script>
+            $.bootstrapGrowl("<%= value %>", {
+                type: 'success', // (null, 'info', 'danger', 'success')
+                align: 'right', // ('left', 'right', or 'center')
+                allow_dismiss: true, // If true then will display a cross to close the popup.
+                stackup_spacing: 10 // spacing between consecutively stacked growls.
+            });
+        </script>
+      <% end %>
     <% end %>
 
   </body>
