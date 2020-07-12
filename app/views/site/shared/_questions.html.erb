@@ -6,7 +6,7 @@
       <h3><%= "Resultados para o termo \"#{params[:term]}\"" %></h3>
     <% end %>
   </div>
-  <%= form_with url: site_answer_path, local: true do |form| %>
+  <%= form_with url: site_answer_path do |form| %>
     <div class="card">
       <div class="card-header">
         <%= question.description %>
@@ -24,7 +24,7 @@
             </li>
           <% end %>
           <li style="list-style: none">
-            <%= form.submit 'Responder', class:"btn btn-light" %>
+            <%= form.submit 'Responder', class:"btn btn-light", id: "submit_#{question.id}" %>
           </li>
         </ul>
       </div>
