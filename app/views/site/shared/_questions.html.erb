@@ -1,0 +1,19 @@
+<% @questions.each do |question| %>
+  <div class="card">
+    <div class="card-header">
+      <%= question.description %>
+    </div>
+    <div class="card-body">
+      <ul>
+        <% question.answers.each do |answer| %>
+          <li><%= answer.description %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <br>
+<% end %>
+
+<div class="pagination justify-content-center">
+  <%= paginate @questions,  theme: 'twitter-bootstrap-4', pagination_class: "pagination-sm" %>
+</div>
